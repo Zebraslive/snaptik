@@ -30,7 +30,7 @@ export default function Home() {
     <Layout>
       <Board />
       <VStack bg={navBackgroundColor} w="100%" alignItems="flex-start" px="10%" py="5">
-        <ins
+{/*         <ins
           className="adsbygoogle"
           style={{
             display: 'block',
@@ -39,7 +39,7 @@ export default function Home() {
           data-ad-slot="2201551494"
           data-ad-format="auto"
           data-full-width-responsive="true"
-        ></ins>
+        ></ins> */}
         <Heading className={openSans.className} color={textColor}>
           {trans.home.text1}
         </Heading>
@@ -56,7 +56,7 @@ export default function Home() {
         <Box height="16px" />
         <iframe
           width="100%"
-          height="700px"
+          height="500px"
           src="https://www.youtube.com/embed/tUpTMbl991U"
           title="YouTube video player"
           frameBorder="0"
@@ -265,7 +265,7 @@ export default function Home() {
         >
           {trans.home.noteContent}
         </Text>
-        <ins
+{/*         <ins
           className="adsbygoogle"
           style={{
             display: 'block',
@@ -274,7 +274,7 @@ export default function Home() {
           data-ad-slot="1214653326"
           data-ad-format="auto"
           data-full-width-responsive="true"
-        ></ins>
+        ></ins> */}
       </HStack>
     </Layout>
   );
